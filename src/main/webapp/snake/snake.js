@@ -15,6 +15,9 @@ function update() {
         tail: form.tail.value
     }).then(() => {
         updateBtn.disabled = true;
+        console.log(form.color.value)
+        console.log(form.head.value)
+        console.log(form.tail.value)
     })
 }
 
